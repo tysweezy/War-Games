@@ -8,7 +8,7 @@ def main():
     print "Welcome", name
     play_game = raw_input("Do you want to play a game? ")
     
-    #checks if user say yes your no
+    #checks if user say yes or no
     if play_game.lower() == 'yes' and 'YES':
         print "How about a nice game of chess?"
     else:
