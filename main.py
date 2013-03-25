@@ -9,7 +9,7 @@ def main():
     play_game = raw_input("Do you want to play a game? ")
     
     #checks if user say yes your no
-    if play_game == "yes" and "Yes" and "YES":
+    if play_game.lower() == 'yes' and 'YES':
         print "How about a nice game of chess?"
     else:
         print "Ok, would you like to play a game?"
